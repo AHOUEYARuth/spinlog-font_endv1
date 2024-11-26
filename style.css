@@ -194,8 +194,14 @@ button:hover {
   width: 100%;
   padding: 40px 0;
 }
-.songs, .boutique , .table{
+.songs, .boutique , .table, .sell{
   padding: 20px 0;
+}
+.boutique{
+  z-index: 12;
+}
+.list{
+  z-index: 2;
 }
 .banner_content {
   width: 100%;
@@ -433,6 +439,7 @@ h1 h2 {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  z-index: 12;
 }
 .shop_detail{
   width: 30%;
@@ -454,6 +461,7 @@ th, td{
   border: none;
   outline: none;
   color: #ffffff;
+  font-size: 16px;
 }
 .product{
   width: 40%;
@@ -542,4 +550,179 @@ th, td{
 .beet .want{
   border: none;
 }
-
+/* cart */
+/* .div h3{
+  font-size: 25px;
+} */
+.buy{
+  width: 100%;
+  display: flex;
+  align-items: start;
+  gap: 10px;
+}
+.cart{
+  width: 73%;
+}
+.cart_tr , .cart_tr td{
+  width: 100%;
+}
+.buy_product , .liv_adresse{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.liv_adresse{
+  gap: 10px;
+}
+.cart_ftr, .cart_str , .sell_product{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.cart_str{
+  gap: 200px;
+}
+.cart_str .book .want{
+  border: none;
+}
+.cart_str .book .want:hover{
+  background-color: inherit;
+}
+.cmd{
+  border-bottom: none;
+}
+.card_list, .paie_s{
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.paie_s{
+  gap: 20px;
+}
+.cards_item{
+  width: 40px;
+  height: 25px;
+  background-color: #565163;
+  border-radius: 6px;
+}
+.mont{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #ffffffde;
+}
+.mont span{
+  color: #fff;
+}
+.pd{
+  margin: 20px 0;
+}
+.sp_achat{
+  width: 24%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  font-size: 14px;
+}
+.sp_achat p {
+  font-size: 12px;
+}
+h4, p{
+  font-size: 16px;
+}
+/* sell */
+.sell_content, .description{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin: 0;
+  padding: 20px 0;
+}
+.sell_product{
+  padding: 20px 0;
+}
+.sell_product img{
+  border-radius: 15px;
+}
+.description , .cont{
+  padding: 0;
+  gap: 20px;
+}
+.description div, form .etat, .etat_item{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.description table{
+  width: 450px;
+}
+.description table tr{
+  width: 100%;
+}
+.sell_content form{
+  width: 650px;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  background-color: inherit;
+}
+.etat{
+  width: 100%;
+ 
+}
+.etat .lang_wrapper{
+  width: 100%;
+}
+.etat .lang_wrapper p{
+  width: 95%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #3C3A42;
+  padding: 8px;
+  border-radius: 8px;
+  color: #ffffff80;
+}
+.etat input{
+  width: 95%;
+  background-color: #3C3A42;
+  padding: 8px;
+  border-radius: 8px;
+}
+.etat input::placeholder{
+  color: #ffffff80;
+}
+.sell_content p{
+  width: 650px;
+  font-size: 16px;
+}
+/* .sell_field{
+  align-items: start;
+  padding: 0;
+} */
+.sell_field .etat{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.etat_item {
+  width: 150px;
+}
+.etat_item input{
+  width: 80%;
+  background-color: #3C3A42;
+  color: #ffffff80;
+}
+.sell_div{
+  width: 100%;
+}
+.sell_div button{
+  background-color: #37C480;
+  color: #fff;
+}
