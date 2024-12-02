@@ -283,6 +283,9 @@ h1 h2 {
 .lang_wrapper{
   width: 50%;
   height: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
   user-select: none;
 }
 .lang_wrapper p{
@@ -340,7 +343,6 @@ h1 h2 {
   gap: 15px;
 }
 .rectangle{
-  width: 100%;
   display: flex;
   align-items: center;
   background: #3C3A42;
@@ -725,4 +727,65 @@ h4, p{
 .sell_div button{
   background-color: #37C480;
   color: #fff;
+}
+/* order */
+.oder{
+  gap: 80px;
+}
+.order_drop{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.order_p{
+  width: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2px 10px;
+  background-color: #383640;
+  border-radius: 10px;
+}
+.tr_bottom .check{
+  padding-left: 10px;
+}
+.lang_wrapper .order_drop_list{
+  padding: 10px;
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background-color: #383640;
+  border-radius: 15px;
+  z-index: 1;
+}
+/* inventory */
+.invent{
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.suspend{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.suspend a{
+  text-decoration: underline;
+}
+.suspend .shop{
+  gap: 10px;
+  background-color: #ffffff;
+  color: #242229;
+  padding: 5px 13px;
+  border-radius: 6px;
+}
+.suspend .want{
+  gap: 10px;
+  background-color: #37c480;
+  color: #ffffff;
+  padding: 5px 13px;
+  border-radius: 6px; 
+  border: none;
 }
