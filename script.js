@@ -1,4 +1,4 @@
-const wrapper = document.querySelector('.wrapper')
+const wrapper = document.querySelector('.wrapper');
 wrapper.addEventListener('click', (event) =>{
   let element = event.target.parentElement
   if (element == wrapper || element.parentElement == wrapper) {

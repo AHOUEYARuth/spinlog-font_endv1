@@ -149,6 +149,9 @@ main {
   align-items: center;
   justify-content: space-between;
 }
+.head_content button{
+  padding: 0;
+}
 form {
   width: 350px;
   background-color: #d9d9d912;
@@ -197,7 +200,7 @@ button:hover {
 .songs, .boutique , .table, .sell{
   padding: 20px 0;
 }
-.boutique{
+.boutique , .amra{
   z-index: 12;
 }
 .list{
@@ -788,4 +791,127 @@ h4, p{
   padding: 5px 13px;
   border-radius: 6px; 
   border: none;
+}
+/* page de sortie */
+.article_s{
+  width: 100%;
+  /* padding: 20px 0; */
+}
+.article_s .container{
+  display: flex;
+  align-items: start;
+ 
+}
+.article_container{
+  width: 70%;
+  padding: 30px 0;
+}
+.art_content{
+  width: 100%;
+  display: flex;
+  gap: 20px;
+}
+.sort_cart_container{
+  width: 30%;
+  border-left: 1px solid #48454f;
+  border-bottom: 1px solid #48454f;
+  padding: 30px 0;
+}
+.sort_content{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.sort_img{
+  width: 35%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.sort_img img{
+  border-radius: 20px;
+}
+.sell_content ul{
+  padding: 0;
+  width: 90%;
+}
+.sell_content ul li{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #565163;
+  padding-bottom: 10px;
+}
+.sell_contents ul{
+  padding: 10px 0;
+  gap: 0;
+}
+.sell_contents ul li{
+  display: flex;
+  align-items: center;
+  gap: 0;
+}
+.sell_contents ul li:hover .span,.sell_content ul li:hover span{
+  color: #fff;
+}
+.spanC{
+  color: #37c480;
+}
+.sell_contents table{
+  padding-top: 40px; 
+  width: 90%;
+}
+.sell_contents table tr{
+  background-color: inherit;
+  border-bottom: 1px solid #565163;
+}
+.sell_contents table .tr{
+  border-bottom: none;
+}
+.sell_contents .item_list{
+  padding: 20px 0;
+  width: 90%;
+  justify-content: space-between;
+}
+.sell_contents .item_list .item{
+  width: 220px;
+}
+.button{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+.sort_content .sell{
+  width: 100%;
+}
+.sellContent table tr td{
+  padding: 10px 0;
+}
+.video{
+  padding: 30px 0;
+}
+.video_card{
+  width: 250px;
+  height: 150px;
+  background-color: #000000;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 15px 0;
+}
+.other_video{
+  align-items: start;
+}
+.small_card{
+  width: 120px;
+  height: 76px;
+  background-color: #000000;
+  border-radius: 10px;
+}
+.video .content{
+  gap: 10px;
 }
